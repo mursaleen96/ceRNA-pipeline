@@ -1,0 +1,6 @@
+xgboost
+torch
+torch-geometric
+statsmodels
+plotly
+rpy2
