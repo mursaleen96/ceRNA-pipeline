@@ -1,0 +1,21 @@
+# config/config.yaml
+
+normalization_method: TMM       # or RLE
+low_count_threshold: 5          # Minimum counts per gene
+sample_frac_threshold: 0.8      # Proportion of samples to keep gene
+batch_correction: TRUE
+
+confidence_threshold: 0.7
+feature_importance_top_n: 15
+
+databases:
+  mirna_mrna: miRTarBase
+  mirna_lncrna: LncBase
+organism: human
+annotation_release: v38
+
+mediation_pval_cutoff: 0.05
+partial_corr_cutoff: 0.15
+
+report_plots: TRUE
+random_seed: 42
